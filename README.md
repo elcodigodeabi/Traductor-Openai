@@ -1,36 +1,41 @@
-# Tradutor com OpenAI
+# Traductor con OpenAI
 
-Este é um programa Python que utiliza a API da OpenAI para realizar traduções de texto. Ele utiliza o modelo "text-davinci-003" da OpenAI para realizar as traduções.
+Este es un programa Python que utiliza la API de OpenAI para realizar traducciones de texto. Utiliza el modelo "text-davinci-003" de OpenAI para realizar las traducciones.
 
-## Configuração
+## Configuración
 
-Antes de executar o programa, certifique-se de configurar corretamente as variáveis de ambiente:
+Antes de ejecutar el programa, asegúrese de configurar correctamente las variables de entorno:
 
-1. Crie um arquivo `.env` na raiz do projeto.
-2. Adicione as seguintes linhas ao arquivo `.env`:
+1. Cree un archivo `.env` en la raíz del proyecto.
+2. Agregue las siguientes líneas al archivo `.env`:
 
-    OPENAI_API_KEY=`SUA_CHAVE_DA_API`
+    OPENAI_API_KEY=`SU_CLAVE_DE_API`
 
-    Substitua `SUA_CHAVE_DA_API` pela sua chave de API da OpenAI.
+    Sustituya `SU_CLAVE_DE_API` por su clave de API de OpenAI.
 
-3. Execute o seguinte comando para instalar as dependências necessárias:
+3. Ejecute el siguiente comando para instalar las dependencias necesarias:
 
 ```shell
 pip install openai python-dotenv
 ```
+
 ## Uso
-Execute o programa digitando o seguinte comando no terminal:
+
+Ejecute el programa escribiendo el siguiente comando en el terminal:
 
 ```shell
-python tradutor.py
+python traductor.py
 ```
-O programa solicitará o texto a ser traduzido e o idioma de destino. Após a tradução, o resultado será exibido no console.
 
-## Observações
-Certifique-se de ter uma conta na OpenAI e de que sua chave de API esteja ativa.
+El programa solicitará el texto a ser traducido y el idioma de destino. Después de la traducción, el resultado se mostrará en la consola.
 
-Verifique sua cota de uso na OpenAI para garantir que você não exceda os limites permitidos.
+## Observaciones
 
-Observe que este é um exemplo completo em linguagem de marcação, seguindo a sintaxe do Markdown, para um arquivo README.md. 
+Asegúrese de tener una cuenta en OpenAI y de que su clave de API esté activa.
 
-Certifique-se de copiar todo o conteúdo corretamente para o seu arquivo README.md.
+Verifique su cuota de uso en OpenAI para garantizar que no exceda los límites permitidos.
+
+Observe que este es un ejemplo completo en lenguaje de marcado, siguiendo la sintaxis de Markdown, para un archivo README.md.
+
+Asegúrese de copiar todo el contenido correctamente en su archivo README.md.
+
